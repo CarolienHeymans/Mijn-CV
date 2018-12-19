@@ -47,7 +47,7 @@ nav {
 
 .studies {
   background-color: rgb(112, 128, 144, .6);
-  margin-top: 10px;
+
   padding: 10px;
 }
 
@@ -58,7 +58,6 @@ nav {
 
 .competenties {
   background-color: rgb(112, 128, 144, .6);
-  margin-top: 20px;
   padding: 10px;
 }
 
@@ -76,6 +75,4 @@ nav {
   width: 300px;
   padding: 10px;
   margin-top: 40px;
-
-
 }
