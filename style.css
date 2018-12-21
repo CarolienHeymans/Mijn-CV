@@ -1,78 +1,98 @@
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'PT Sans Caption', sans-serif;
+    width: auto;
+    height: auto;
+    
 }
 
 body {
-  background-image: url(https://pbs.twimg.com/media/DMDIKcyWsAEsKDj.jpg);
-  background-size: 100%;
-  background-color: black;
-  background-attachment: fixed;
-  font-family: 'Dosis', sans-serif;
+    background-color:  #47383b;
+    width: auto;
 }
 
 main {
-  display: flex;
-  flex-direction: row;
-  height: 500px;
-  width: fit-content;
-
+    display: flex;
+    flex-direction: row;
+    
+}
+section {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    
 }
 
-#container {
-  display: flex;
-  flex-direction: column;
-  height: 500px;
-  background-color: rgb(112, 128, 144, .6);
+
+
+header {
+   background-color:#e1d7d7;;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding: 5px ;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color:#010103;
+    color:#afa5a5;
+    margin: 5px;
+    padding: 5px ; 
+}  
+ul { list-style-type: none; }
+
+img {
+    border-radius: 50%;
+    height: 200px ;
+    width: 200px;
+    align-self: center;
+    
 }
 
 .personal {
-  width: 300px;
-  height: 30%;
-  padding: 10px;
+    color: #0b0a10;
+ width: 33%;
+  
 }
 
-nav {
-  width: 300px;
-  height: 70%;
-  padding: 10px;
+.adress {
+    color: #0b0a10;
+    width: 33%;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  width: 700px;
-  height: 500px;
-  margin-left: 40px;
+.contact {
+    color: #0b0a10;
+    width: 33%;
 }
-
-.studies {
-  background-color: rgb(112, 128, 144, .6);
-
-  padding: 10px;
+article {
+    color: #0b0a10;
+   background-color:#e1d7d7;
+   list-style-type: none; 
+   width: auto;
+   margin: 5px;
+   padding: 5px ;
 }
-
-.ervaring {
-  background-color: rgb(112, 128, 144, .6);
-  padding: 10px;
-}
-
-.competenties {
-  background-color: rgb(112, 128, 144, .6);
-  padding: 10px;
-}
-
-.interesses {
-  background-color: rgb(112, 128, 144, .6);
-  margin-left: 40px;
-  padding: 10px;
-  width: 400px;
-}
-
-.footer {
-  background-color: rgb(119, 136, 153, .6);
-  clear: both;
-  height: auto;
-  width: 300px;
-  padding: 10px;
-  margin-top: 40px;
-}
+footer {
+    color: #afa5a5;
+    background-color: #010103;
+    width: 85%;
+    margin-left: 5px;
+    
+ }
+ 
+.column {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    padding: 10px;
+  }
+  
+ 
+  
+  
